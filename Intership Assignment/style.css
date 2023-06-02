@@ -1,0 +1,398 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(59, 59, 59);
+    
+}
+
+
+button:hover{
+    cursor: pointer;
+    background-color: blue;
+}
+
+nav{
+    /* margin: 10px; */
+    height: 170px;
+    width:100%;
+    background-color: rgb(235, 185, 251);
+    position: fixed;
+    list-style: none;
+    margin-top: -730px;
+    z-index: 1;
+}
+
+
+nav ul{
+    background-color: rgb(235, 185, 251);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: -9px;
+    list-style: none;
+    /* gap: px; */
+}
+
+nav ul li {
+    background-color: white;
+    height: 40px;
+    width: 150px;
+    margin-top:-5px;
+    text-align: center;
+    line-height: 42px;
+    list-style: none;
+    font-weight: bold;
+}
+
+nav ul li:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+
+
+
+nav ul button{
+    margin-top: 80px;
+    text-align: center;
+    justify-content: right;
+    
+    font-size: 20px;
+    margin-bottom: 0;
+    border-style:none;
+}
+
+.donate{
+    position: absolute;
+    right: 250px;
+    height: 40px;
+    width: 150px;
+    margin-top: 30px;
+    background-color: rgb(142, 108, 153);
+    color: white;
+    font-size: 20px;
+    border: 1px solid rgb(142, 108, 153) ;
+}
+
+.donate:hover{
+    background-color: rgb(172, 133, 240);
+    color: black;
+    border: 1px solid rgb(172, 133, 240) ;
+}
+
+nav img{
+    height: 190px;
+    width: 190px;
+    background: transparent;
+    margin-left: 220px;
+    margin-top: -52px;
+    
+}
+
+.social-media{
+    display: flex;
+    flex-direction: row;
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    right: 368px;
+}
+
+.social-media img{
+    height: 30px;
+    width: 35px;
+    margin: 0;
+    /* opacity: 0.6; */
+    
+    margin-top: -60px;
+    list-style: none;
+}
+
+img[alt="facebook"],
+img[alt="insta"],
+img[alt="twitter"],
+img[alt="linkedin"]{
+    background-color: transparent;
+    list-style: none;
+}
+
+
+
+
+.maindiv{
+    /* position: fixed; */
+    width: 70%;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%,-50%);
+    background-image:url(/assets/d91e6d_a33e1b525ba54baeb813860359d9f8da~mv2.webp) ;
+    background-size:100% 100% ;
+    box-shadow: 1px 2px 10px 4px black ;
+    animation: slider 48s infinite linear;
+    z-index: -1;
+}
+
+@keyframes slider {
+    0%{background-image:url(/assets/d91e6d_a33e1b525ba54baeb813860359d9f8da~mv2.webp) ;}
+    12.5%{background-image: url(/assets/Banner\ 2.webp);}
+    25%{background-image: url(assets/Black\ White\ Dark\ Modern\ Minimal\ Architecture\ \ Interior\ Design\ Portfolio\ Website.webp);}
+    37.5%{background-image: url(/assets/d91e6d_260a7bb5bb0048f6a1b2a4da29db172c~mv2.webp);}
+    50%{background-image: url(/assets/img6.webp);}
+    62.5%{background-image: url(/assets/img5.webp);}
+    75%{background-image: url(/assets/img8.webp);}
+    87.5%{background-image: url(/assets/img7.webp);}
+    
+}
+
+.intro{
+    background-color: rgb(230, 227, 224);
+}
+
+.intro h1{
+    margin-top: 730px;
+    text-align: center;
+    color: rgb(74, 77, 1);
+    background-color: transparent;
+    font-size: 70px;
+}
+
+.intro h4{
+    text-align: center;
+    color: rgb(13, 2, 107);
+    background-color: transparent;
+    text-decoration-style:italics;
+}
+
+.intro p{
+    font-size: 20px;
+    /* text-align: center; */
+    margin-top: 60px;
+    color: rgb(6, 6, 6);
+    width: 65%;
+    margin-left: 18%;
+    background-color: transparent;
+    line-height: 40px;
+    font-weight:100;
+}
+
+.learnmore{
+    background-color: rgb(230, 227, 224);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.learnmore button{
+    color: black;
+    background-color: white;
+    border: 1px solid white;
+    height: 40px;
+    width: 110px;
+    font-weight: 700;
+}
+
+.learnmore button:hover{
+    background-color: yellow;
+    color: black;
+    border: 1px solid yellow;
+}
+
+.whatwedo{
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.whatwedo h1{
+    line-height: 70px;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+}
+
+.boxes{
+    background-color: white;
+}
+
+.box{
+    height: 380px;
+    width: 240px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: 1px 2px 10px 1px black ;
+}
+
+.box1{
+    background-color:white ;
+    border: 1px solid black;
+    margin-left: 200px;
+}
+
+.box2{
+    background-color:white ;
+    border: 1px solid black;
+}
+
+.box3{
+    background-color:white ;
+    border: 1px solid black;
+}
+
+.box4{
+    background-color:white ;
+    border: 1px solid black;
+}
+
+.boxes img{
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.boxes p{
+    text-align: center;
+    background-color: white;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.impact{
+    background-image: url(/assets/impact.jpeg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+}
+
+.impact h1,h3{
+    background-color: rgb(79, 0, 128);
+    opacity: 0.7;
+    text-align: center;
+    font-weight: bold;
+    height: 50px;
+}
+
+.impact h1{
+    line-height: 40px;
+    color: gold;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.impact h3{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.Box{
+    height: 450px;
+    width: 17%;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    background-color: rgb(232, 171, 181);
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: 1px 2px 10px 1px black ;
+    opacity: 0.85;
+}
+
+.Box1{
+    margin-left: 80px;
+}
+
+.Boxes{
+    background-color: transparent;
+}
+
+.Boxes p{
+    text-align: center;
+    background-color:transparent;
+    margin-top: 150px;
+    font-weight: bold;
+    font-size: 25px;
+    height: fit-content;
+}
+
+.Box2{
+    margin-top: 50px;
+}
+
+.recoginition img{
+    width: 100%;
+}
+
+.footer{
+    background-color: black;
+    height: 350px;
+    width:100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10px;
+    
+}
+
+.sections button{
+    background-color: red;
+    height: 60px;
+    width: 450px;
+    border: 2px solid red;
+    
+}
+
+
+
+
+.content p{
+    background-color: black;
+    color: rgb(9, 177, 244);
+    text-align: center;
+    line-height: 40px;
+    width: 100%;
+
+}
+
+
+.socialmedia{
+    display: flex;
+    flex-direction: row;
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    right: 808px;
+    background-color: black;
+}
+
+.socialmedia img{
+    height: 30px;
+    width: 35px;
+    margin: 0;
+    /* opacity: 0.6; */
+    
+    margin-top: -1px;
+    list-style: none;
+}
+
+.content h4{
+    text-align: center;
+    line-height: 100px;
+    background-color: black;
+    color: rgb(9, 177, 244);
+}
+
